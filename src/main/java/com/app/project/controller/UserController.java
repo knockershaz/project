@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://project-frontend-one.vercel.app/adduser")
+@CrossOrigin("https://project-frontend-one.vercel.app")
 public class UserController {
     @Autowired
     UserRepository ur;
